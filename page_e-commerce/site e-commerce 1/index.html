@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- ======== Swiper Js ======= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css" />
+
+  <!-- Unicons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./style/style.css" />
+  <title>Codevo - Ecommerce Website</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="wrapper container">
+      <div class="logo">
+        <a href="/">
+          <img src="./images/logo.png" alt="">
+        </a>
+      </div>
+
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn">
+            <i class="fas fa-times"></i>
+          </label>
+        </div>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li>
+          <a href="" class="desktop-item">Shop <span><i class="uil uil-angle-down"></i></span>
+          </a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Shop<i class="uil uil-angle-down"></i></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="./images/nav.png" alt="">
+              </div>
+              <div class="row">
+                <header>Shop Layout</header>
+                <ul class="mega-links">
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Products Layout</header>
+                <ul class="mega-links">
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Filter Layout</header>
+                <ul class="mega-links">
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                  <li><a href="">Shop with Background</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="">Blog</a></li>
+        <li>
+          <a href="" class="desktop-item">Vendors <i class="uil uil-angle-down"></i> </a>
+          <input type="checkbox" id="showdrop1">
+          <label for="showdrop1" class="mobile-item">Vendors <i class="uil uil-angle-down"></i></label>
+          <ul class="drop-menu1">
+            <li><a href="">Vendor store listings</a></li>
+            <li><a href="">Store details</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="" class="desktop-item">Page <i class="uil uil-angle-down"></i> </a>
+          <input type="checkbox" id="showdrop2">
+          <label for="showdrop2" class="mobile-item">Page <i class="uil uil-angle-down"></i></label>
+          <ul class="drop-menu2">
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Faq</a></li>
+            <li><a href="">Page 404</a></li>
+          </ul>
+        </li>
+        <li class="icons">
+          <a href="cart.html">
+            <span>
+              <img src="./images/shoppingBag.svg" alt="">
+              <small class="count d-flex">0</small>
+            </span>
+          </a>
+          <span>
+            <img src="./images/search.svg" alt="">
+          </span>
+        </li>
+      </ul>
+      <label for="" class="btn open-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+    </div>
+  </nav>
+  <!-- Hero -->
+  <div class="hero">
+    <div class="row">
+      <div class="swiper-container slider-1">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <img src="./images/hero-1.png" alt="">
+            <div class="content">
+              <h1>Super market vegbox
+                <br>
+                start from 
+                <span>$9</span>
+              </h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo dolor optio perspiciatis ducimus nemo vero.</p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <img src="./images/hero-2.png" alt="">
+            <div class="content">
+              <h1>Your first Order
+                <br>
+                <span>20% off</span>
+                at Juice
+              </h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo dolor optio perspiciatis ducimus nemo vero.</p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/hero-3.png" alt="">
+            <div class="content">
+              <h1>Super market vegbox
+                <br>
+                start from 
+                <span>$9</span>
+              </h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo dolor optio perspiciatis ducimus nemo vero.</p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- carousel Navigation -->
+    <div class="arrows d-felx">
+      <div class="swiper-prev d-flex">
+        <i class="uil uil-angle-left-b swiper-icon"></i>
+      </div>
+      <div class="swiper-next d-flex">
+        <i class="uil uil-angle-right-b swiper-icon"></i>
+      </div>
+    </div>
+  </div>
+  <!-- Collections -->
+  <section class="section collection">
+    <div class="title">
+      <h2>Shop Collection</h2>
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+    </div>
+    <div class="collection-layout">
+
+      <div class="collection-items">
+        <img src="./images/promo1.jpg" alt="">
+        <div class="collection-content">
+          <h3>Juice</h3>
+          <a href="">SHOP NOW</a>
+        </div>
+      </div>
+
+      <div class="collection-items">
+        <img src="./images/promo2.jpg" alt="">
+        <div class="collection-content">
+          <h3>Juice</h3>
+          <a href="">SHOP NOW</a>
+        </div>
+      </div>
+
+      <div class="collection-items">
+        <img src="./images/promo3.jpg" alt="">
+        <div class="collection-content">
+          <h3>Juice</h3>
+          <a href="">SHOP NOW</a>
+        </div>
+      </div>
+
+      <div class="collection-items">
+        <img src="./images/promo4.jpg" alt="">
+        <div class="collection-content">
+          <h3>Juice</h3>
+          <a href="">SHOP NOW</a>
+        </div>
+      </div>
+
+      <div class="collection-items">
+        <img src="./images/promo5.jpg" alt="">
+        <div class="collection-content">
+          <h3>Juice</h3>
+          <a href="">SHOP NOW</a>
+        </div>
+      </div>
+
+      <div class="collection-items">
+        <img src="./images/promo6.jpg" alt="">
+        <div class="collection-content">
+          <h3>Juice</h3>
+          <a href="">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Sections -->
+  <section class="section featured">
+    <div class="title">
+      <h2>Featured Products</h2>
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+    </div>
+    <div class="row container">
+      <div class="swiper-container slider-2">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="products">
+              <div class="img-container">
+                <img src="./images/product-1.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="slide-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>150$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="products">
+              <div class="img-container">
+                <img src="./images/product-2.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="slide-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>150$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="products">
+              <div class="img-container">
+                <img src="./images/product-3.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="slide-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>150$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="products">
+              <div class="img-container">
+                <img src="./images/product-4.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="slide-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>150$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="products">
+              <div class="img-container">
+                <img src="./images/product-5.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="slide-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>150$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="products">
+              <div class="img-container">
+                <img src="./images/product-6.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="slide-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>150$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- featured Navigation -->
+    <div class="arrows d-felx">
+      <div class="custom-prev d-flex">
+        <i class="uil uil-angle-double-left swiper-icon"></i>
+      </div>
+      <div class="custom-next d-flex">
+        <i class="uil uil-angle-double-right swiper-icon"></i>
+      </div>
+    </div>
+  </section>
+  <!-- Products -->
+  <section class="section products">
+    <div class="title">
+      <h2>New Products</h2>
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+    </div>
+
+    <div class="products-layout">
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-3.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-5.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-7.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-9.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-11.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-13.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-2.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-4.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-6.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-8.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="img-container">
+          <img src="./images/product-10.jpg" alt="">
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <ul class="slide-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Bambi Print Mini Fruits</a>
+          <div class="price">
+            <span>150$</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Adverts -->
+  <section class="section advert">
+    <div class="advert-layout container">
+      <div class="items">
+        <img src="./images/banner1.jpg" alt="">
+        <div class="content left">
+          <span>Exclusive Sales</span>
+          <h3>Spring Collections</h3>
+          <a href="">View Collections</a>
+        </div>
+      </div>
+
+      <div class="items">
+        <img src="./images/banner2.jpg" alt="">
+        <div class="content right">
+          <span>New Trendind</span>
+          <h3>Spring Collections</h3>
+          <a href="">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Brands -->
+  <section class="section brands">
+    <div class="title">
+      <h2>Shop by brands</h2>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+    </div>
+    <div class="brand-layout container">
+      <div class="swiper-container slider-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/brand1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/brand2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/brand3.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/brand4.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/brand5.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/brand6.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/brand7.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <div class="footer section" id="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>Extra</h3>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+        </div>
+
+        <div class="footer-center">
+          <h3>Informations</h3>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+        </div>
+
+        <div class="footer-center">
+          <h3>My account</h3>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+          <a href="">Brands</a>
+        </div>
+        <div class="footer-center">
+          <h3>Contact Us</h3>
+          <div>
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            42 Dream House, Dreammy street, 7131 Breamville, USA
+          </div>
+
+          <div>
+            <span><i class="far fa-envelope"></i></span>
+            Company@gmail.com
+          </div>
+
+          <div>
+            <span><i class="fas fa-phone"></i></span>
+            07-15-12-45-78
+          </div>
+          <div class="payement-methods">
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======== SwiperJS ======= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+  <!-- Custom Scripts -->
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
